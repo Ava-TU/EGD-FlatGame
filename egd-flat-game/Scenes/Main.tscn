@@ -2,27 +2,14 @@
 
 [ext_resource type="Script" uid="uid://hefypydnccmq" path="res://Scripts/Player.gd" id="1_idj7w"]
 [ext_resource type="Texture2D" uid="uid://blf2yr3e3x1vo" path="res://icon.svg" id="1_r150o"]
-[ext_resource type="Shader" uid="uid://b4ymu21prhv7k" path="res://Shaders/normalBG.gdshader" id="1_rgh2o"]
-[ext_resource type="Texture2D" uid="uid://e171u74rkqqh" path="res://BG/BlackPaperGB.jpg" id="2_rgh2o"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_rgh2o"]
-shader = ExtResource("1_rgh2o")
-shader_parameter/pattern = ExtResource("2_rgh2o")
-shader_parameter/size = 5.0
-shader_parameter/direction = Vector2(1, 1)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
 
 [node name="Node2D" type="Node2D" unique_id=2035813038]
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1736575272]
-material = SubResource("ShaderMaterial_rgh2o")
-offset_right = 1932.0
-offset_bottom = 1093.0
-
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1942139395]
-position = Vector2(916, 555)
+position = Vector2(969, 542)
 script = ExtResource("1_idj7w")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1701292336]
@@ -31,3 +18,9 @@ texture = ExtResource("1_r150o")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=2042612560]
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_r150o")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=2082127314]
+position = Vector2(-4, 1)
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+editor_draw_drag_margin = true
