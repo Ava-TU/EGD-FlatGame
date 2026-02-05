@@ -2,11 +2,19 @@
 
 [ext_resource type="Script" uid="uid://hefypydnccmq" path="res://Scripts/Player.gd" id="1_idj7w"]
 [ext_resource type="Texture2D" uid="uid://blf2yr3e3x1vo" path="res://icon.svg" id="1_r150o"]
+[ext_resource type="Texture2D" uid="uid://e171u74rkqqh" path="res://BG/BlackPaperGB.jpg" id="2_rgh2o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
 
 [node name="Node2D" type="Node2D" unique_id=2035813038]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
+texture_repeat = 2
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_rgh2o")
+stretch_mode = 1
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1942139395]
 position = Vector2(969, 542)
