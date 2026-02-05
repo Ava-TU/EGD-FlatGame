@@ -2,15 +2,14 @@
 
 [ext_resource type="Script" uid="uid://hefypydnccmq" path="res://Scripts/Player.gd" id="1_idj7w"]
 [ext_resource type="Texture2D" uid="uid://blf2yr3e3x1vo" path="res://icon.svg" id="1_r150o"]
+[ext_resource type="Shader" uid="uid://b4ymu21prhv7k" path="res://Shaders/normalBG.gdshader" id="1_rgh2o"]
 [ext_resource type="Texture2D" uid="uid://e171u74rkqqh" path="res://BG/BlackPaperGB.jpg" id="2_rgh2o"]
-[ext_resource type="Shader" uid="uid://bclk51ahsricb" path="res://Scenes/BG.gdshader" id="3_kln2b"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_rgh2o"]
-shader = ExtResource("3_kln2b")
+shader = ExtResource("1_rgh2o")
 shader_parameter/pattern = ExtResource("2_rgh2o")
-shader_parameter/size = 3.5
-shader_parameter/direction = Vector2(-1, -1)
-shader_parameter/speed = 0.4
+shader_parameter/size = 5.0
+shader_parameter/direction = Vector2(1, 1)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
