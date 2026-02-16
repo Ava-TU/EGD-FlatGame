@@ -44,11 +44,9 @@ texture = ExtResource("1_r150o")
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_r150o")
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=2082127314]
-position = Vector2(-4, 1)
-drag_horizontal_enabled = true
-drag_vertical_enabled = true
-editor_draw_drag_margin = true
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=629371186]
+position_smoothing_enabled = true
+position_smoothing_speed = 4.0
 
 [node name="Fog" type="ParallaxBackground" parent="." unique_id=2068014699]
 layer = 2
@@ -67,6 +65,7 @@ offset_left = 1061.0
 offset_top = 340.0
 offset_right = 1356.0
 offset_bottom = 477.0
+theme_override_colors/font_color = Color(0.585062, 0.585062, 0.5850621, 1)
 theme_override_font_sizes/font_size = 75
 text = "Hello?"
 horizontal_alignment = 1
