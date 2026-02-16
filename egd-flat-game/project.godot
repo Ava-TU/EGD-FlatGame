@@ -13,7 +13,7 @@ config_version=5
 config/name="EGD-FlatGame"
 run/main_scene="uid://c002y48vdofbp"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icon.svg"
 
 [display]
 
