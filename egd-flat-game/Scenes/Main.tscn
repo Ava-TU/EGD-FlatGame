@@ -27,8 +27,8 @@ shader_parameter/speed = Vector2(0.02, 0.01)
 [node name="Node2D" type="Node2D" unique_id=2035813038]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=203460590]
-offset_right = 1920.0
-offset_bottom = 1080.0
+offset_right = 7118.0
+offset_bottom = 4585.0
 color = Color(0.32699388, 0.28063932, 0.22092837, 1)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
@@ -56,26 +56,34 @@ shape = SubResource("RectangleShape2D_r150o")
 position_smoothing_enabled = true
 position_smoothing_speed = 4.0
 
-[node name="Fog" type="ParallaxBackground" parent="." unique_id=2068014699]
+[node name="Fog" type="ParallaxBackground" parent="CharacterBody2D/Camera2D" unique_id=2068014699]
 layer = 2
 scroll_ignore_camera_zoom = true
 
-[node name="ParallaxLayer" type="ParallaxLayer" parent="Fog" unique_id=1072303387]
+[node name="ParallaxLayer" type="ParallaxLayer" parent="CharacterBody2D/Camera2D/Fog" unique_id=1072303387]
 motion_mirroring = Vector2(1920, 1080)
 
-[node name="ColorRect" type="ColorRect" parent="Fog/ParallaxLayer" unique_id=1407728399]
+[node name="ColorRect" type="ColorRect" parent="CharacterBody2D/Camera2D/Fog/ParallaxLayer" unique_id=1407728399]
 material = SubResource("ShaderMaterial_pbw6q")
 offset_right = 1920.0
 offset_bottom = 1080.0
 
 [node name="Label" type="Label" parent="." unique_id=1817447905]
-offset_left = 1061.0
-offset_top = 340.0
-offset_right = 1356.0
-offset_bottom = 477.0
-theme_override_colors/font_color = Color(0.585062, 0.585062, 0.5850621, 1)
-theme_override_font_sizes/font_size = 75
-text = "Hello?"
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 601.0
+offset_top = 325.0
+offset_right = 1379.0
+offset_bottom = 394.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.45100975, 0.5056518, 0.42923623, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 50
+text = "There has been this dream I had"
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_trim_flags = 128
