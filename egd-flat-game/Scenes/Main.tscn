@@ -28,8 +28,8 @@ shader_parameter/speed = Vector2(0.02, 0.01)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
 texture_repeat = 2
-offset_right = 1920.0
-offset_bottom = 1080.0
+offset_right = 3873.0
+offset_bottom = 2168.0
 texture = ExtResource("2_rgh2o")
 stretch_mode = 1
 
@@ -61,3 +61,14 @@ motion_mirroring = Vector2(1920, 1080)
 material = SubResource("ShaderMaterial_pbw6q")
 offset_right = 1920.0
 offset_bottom = 1080.0
+
+[node name="Label" type="Label" parent="." unique_id=1817447905]
+offset_left = 1061.0
+offset_top = 340.0
+offset_right = 1356.0
+offset_bottom = 477.0
+theme_override_font_sizes/font_size = 75
+text = "Hello?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_trim_flags = 128
