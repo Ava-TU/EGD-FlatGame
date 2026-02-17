@@ -46,6 +46,7 @@ stretch_mode = 1
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1942139395]
 position = Vector2(969, 542)
 script = ExtResource("1_idj7w")
+speed = 350
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1701292336]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
@@ -119,7 +120,7 @@ vertical_alignment = 1
 autowrap_mode = 3
 autowrap_trim_flags = 128
 
-[node name="TextTwo2" type="Label" parent="Texts" unique_id=866140322]
+[node name="TextThree" type="Label" parent="Texts" unique_id=866140322]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -140,7 +141,7 @@ vertical_alignment = 1
 autowrap_mode = 3
 autowrap_trim_flags = 128
 
-[node name="TextTwo3" type="Label" parent="Texts" unique_id=1202296468]
+[node name="TextFour" type="Label" parent="Texts" unique_id=1202296468]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -156,6 +157,69 @@ theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
 theme_override_font_sizes/font_size = 40
 text = "Think my nanny was sleeping in the bed but the smaller details get fuzzy"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="TextFive" type="Label" parent="Texts" unique_id=347867851]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1312.0
+offset_top = 1379.0
+offset_right = 1975.0
+offset_bottom = 1550.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "I was on the other end, holding something like a mix between a flip phone and a Gameboy"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="TextSix" type="Label" parent="Texts" unique_id=575104357]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 567.0
+offset_top = 2150.0
+offset_right = 1230.0
+offset_bottom = 2321.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Which is strange because I never owned one"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="TextSeven" type="Label" parent="Texts" unique_id=75146128]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 2261.0
+offset_top = 2146.0
+offset_right = 2924.0
+offset_bottom = 2317.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "And didn't know they existed at this point"
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
