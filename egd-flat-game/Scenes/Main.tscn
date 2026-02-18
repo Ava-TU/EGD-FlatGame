@@ -5,7 +5,11 @@
 [ext_resource type="Texture2D" uid="uid://bfp2pncisx488" path="res://Sprites/Me.jpg" id="3_rgh2o"]
 [ext_resource type="Shader" uid="uid://cyhejf8vcfwxr" path="res://Shaders/Fog.gdshader" id="4_rgh2o"]
 [ext_resource type="Texture2D" uid="uid://dxaytfcoikps5" path="res://Sprites/line1.png" id="5_pbw6q"]
+[ext_resource type="Texture2D" uid="uid://bx1te5ql60r2m" path="res://Sprites/PhoneThing.png" id="6_jw32o"]
 [ext_resource type="Texture2D" uid="uid://dt0is8keu3m2c" path="res://Sprites/image1.png" id="6_v1gob"]
+[ext_resource type="Texture2D" uid="uid://d4fij8yvtu5wu" path="res://Sprites/Line2.png" id="7_50glp"]
+[ext_resource type="Texture2D" uid="uid://buy8yku2lhpcl" path="res://Sprites/Line3.png" id="9_vy5pj"]
+[ext_resource type="Texture2D" uid="uid://dtbny4vral8nj" path="res://Sprites/Image2.png" id="10_bmxlf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
@@ -76,6 +80,12 @@ offset_bottom = 1080.0
 [node name="Line1" type="Sprite2D" parent="." unique_id=592922144]
 position = Vector2(1596, 1054)
 texture = ExtResource("5_pbw6q")
+
+[node name="PhoneThing" type="Sprite2D" parent="." unique_id=150696153]
+position = Vector2(-50.00006, 2373)
+rotation = -0.36448675
+scale = Vector2(0.6428346, 0.64283466)
+texture = ExtResource("6_jw32o")
 
 [node name="Texts" type="Node" parent="." unique_id=1842334683]
 
@@ -168,10 +178,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 1312.0
-offset_top = 1379.0
-offset_right = 1975.0
-offset_bottom = 1550.0
+offset_left = -790.0
+offset_top = 1868.0
+offset_right = -127.0
+offset_bottom = 2039.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
@@ -189,10 +199,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 567.0
-offset_top = 2150.0
-offset_right = 1230.0
-offset_bottom = 2321.0
+offset_left = 170.0
+offset_top = 2261.0
+offset_right = 833.0
+offset_bottom = 2432.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
@@ -210,10 +220,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 2261.0
-offset_top = 2146.0
-offset_right = 2924.0
-offset_bottom = 2317.0
+offset_left = -519.0
+offset_top = 2676.0
+offset_right = 144.0
+offset_bottom = 2847.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
@@ -225,7 +235,20 @@ vertical_alignment = 1
 autowrap_mode = 3
 autowrap_trim_flags = 128
 
+[node name="Line2" type="Sprite2D" parent="." unique_id=1218527653]
+position = Vector2(736, 2143)
+texture = ExtResource("7_50glp")
+
 [node name="Image1" type="Sprite2D" parent="." unique_id=274348011]
 position = Vector2(871, 1510)
 scale = Vector2(0.63660485, 0.6366048)
 texture = ExtResource("6_v1gob")
+
+[node name="Line3" type="Sprite2D" parent="." unique_id=1864654219]
+position = Vector2(440, 2895)
+texture = ExtResource("9_vy5pj")
+
+[node name="Image2" type="Sprite2D" parent="." unique_id=814910053]
+position = Vector2(1765, 3489.75)
+scale = Vector2(0.637, 0.667)
+texture = ExtResource("10_bmxlf")
