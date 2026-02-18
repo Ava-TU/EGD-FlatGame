@@ -81,7 +81,7 @@ stretch_mode = 1
 z_index = 1
 position = Vector2(969, 542)
 script = ExtResource("1_idj7w")
-speed = 600
+speed = 250
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1701292336]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)

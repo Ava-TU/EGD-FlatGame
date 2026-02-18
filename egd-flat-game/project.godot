@@ -10,9 +10,10 @@ config_version=5
 
 [application]
 
-config/name="EGD-FlatGame"
+config/name="CloudyMemory"
 run/main_scene="uid://c002y48vdofbp"
 config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="uid://bc5bbyme8o4d7"
 
 [display]
 
