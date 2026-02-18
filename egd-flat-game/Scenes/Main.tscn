@@ -10,6 +10,8 @@
 [ext_resource type="Texture2D" uid="uid://d4fij8yvtu5wu" path="res://Sprites/Line2.png" id="7_50glp"]
 [ext_resource type="Texture2D" uid="uid://buy8yku2lhpcl" path="res://Sprites/Line3.png" id="9_vy5pj"]
 [ext_resource type="Texture2D" uid="uid://dtbny4vral8nj" path="res://Sprites/Image2.png" id="10_bmxlf"]
+[ext_resource type="Texture2D" uid="uid://bparf0itnmdpy" path="res://Sprites/star.png" id="11_grg3l"]
+[ext_resource type="Texture2D" uid="uid://bc5bbyme8o4d7" path="res://Sprites/scramble.png" id="12_frkhe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
@@ -33,10 +35,10 @@ shader_parameter/speed = Vector2(0.02, 0.01)
 [node name="Node2D" type="Node2D" unique_id=2035813038]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=203460590]
-offset_left = -795.0
+offset_left = -3006.0
 offset_top = -721.0
 offset_right = 7118.0
-offset_bottom = 4585.0
+offset_bottom = 9063.0
 color = Color(0.32699388, 0.28063932, 0.22092837, 1)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
@@ -252,3 +254,18 @@ texture = ExtResource("9_vy5pj")
 position = Vector2(1765, 3489.75)
 scale = Vector2(0.637, 0.667)
 texture = ExtResource("10_bmxlf")
+
+[node name="Line4" type="Sprite2D" parent="." unique_id=1888513068]
+position = Vector2(3009, 3099)
+texture = ExtResource("7_50glp")
+
+[node name="Star" type="Sprite2D" parent="." unique_id=2032717300]
+position = Vector2(2416, 1178)
+rotation = 0.24687792
+scale = Vector2(0.32777777, 0.32777777)
+texture = ExtResource("11_grg3l")
+
+[node name="Scramble" type="Sprite2D" parent="." unique_id=1651090443]
+position = Vector2(1959.0001, 942)
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
