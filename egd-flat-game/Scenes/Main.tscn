@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://hefypydnccmq" path="res://Scripts/Player.gd" id="1_idj7w"]
 [ext_resource type="Texture2D" uid="uid://bfp2pncisx488" path="res://Sprites/Me.jpg" id="3_rgh2o"]
 [ext_resource type="Shader" uid="uid://cyhejf8vcfwxr" path="res://Shaders/Fog.gdshader" id="4_rgh2o"]
+[ext_resource type="AudioStream" uid="uid://spaarj40ri4v" path="res://Music/Alex Productions - Lights.mp3" id="4_sxkr1"]
 [ext_resource type="Texture2D" uid="uid://cawde1iujwdey" path="res://Sprites/grandad.png" id="5_2w5on"]
 [ext_resource type="Texture2D" uid="uid://dxaytfcoikps5" path="res://Sprites/line1.png" id="5_pbw6q"]
 [ext_resource type="Texture2D" uid="uid://d238ml7ha3vvp" path="res://Sprites/MeAndGrandad.jpg" id="6_0sclb"]
@@ -107,6 +108,10 @@ motion_mirroring = Vector2(1920, 1080)
 material = SubResource("ShaderMaterial_pbw6q")
 offset_right = 1920.0
 offset_bottom = 1080.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CharacterBody2D" unique_id=1991021453]
+stream = ExtResource("4_sxkr1")
+autoplay = true
 
 [node name="Texts" type="Node" parent="." unique_id=1842334683]
 
