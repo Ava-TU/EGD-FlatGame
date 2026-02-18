@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://e171u74rkqqh"
-path="res://.godot/imported/BlackPaperGB.jpg-dbc5ea65cfe58f97d2c044535b10082d.ctex"
+uid="uid://d238ml7ha3vvp"
+path="res://.godot/imported/MeAndGrandad.jpg-92ad6996d3729cc3c5206e329145d8f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BG/BlackPaperGB.jpg"
-dest_files=["res://.godot/imported/BlackPaperGB.jpg-dbc5ea65cfe58f97d2c044535b10082d.ctex"]
+source_file="res://Sprites/MeAndGrandad.jpg"
+dest_files=["res://.godot/imported/MeAndGrandad.jpg-92ad6996d3729cc3c5206e329145d8f0.ctex"]
 
 [params]
 

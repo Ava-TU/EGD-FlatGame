@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://c002y48vdofbp"]
 
 [ext_resource type="Script" uid="uid://hefypydnccmq" path="res://Scripts/Player.gd" id="1_idj7w"]
-[ext_resource type="Texture2D" uid="uid://e171u74rkqqh" path="res://BG/BlackPaperGB.jpg" id="2_rgh2o"]
 [ext_resource type="Texture2D" uid="uid://bfp2pncisx488" path="res://Sprites/Me.jpg" id="3_rgh2o"]
 [ext_resource type="Shader" uid="uid://cyhejf8vcfwxr" path="res://Shaders/Fog.gdshader" id="4_rgh2o"]
 [ext_resource type="Texture2D" uid="uid://cawde1iujwdey" path="res://Sprites/grandad.png" id="5_2w5on"]
 [ext_resource type="Texture2D" uid="uid://dxaytfcoikps5" path="res://Sprites/line1.png" id="5_pbw6q"]
+[ext_resource type="Texture2D" uid="uid://d238ml7ha3vvp" path="res://Sprites/MeAndGrandad.jpg" id="6_0sclb"]
 [ext_resource type="Texture2D" uid="uid://bx1te5ql60r2m" path="res://Sprites/PhoneThing.png" id="6_jw32o"]
 [ext_resource type="Texture2D" uid="uid://dt0is8keu3m2c" path="res://Sprites/image1.png" id="6_v1gob"]
 [ext_resource type="Texture2D" uid="uid://d4fij8yvtu5wu" path="res://Sprites/Line2.png" id="7_50glp"]
@@ -19,6 +19,9 @@
 [ext_resource type="Texture2D" uid="uid://bjp1l8hqywh2l" path="res://Sprites/image4.png" id="15_h1m7h"]
 [ext_resource type="Texture2D" uid="uid://gpl5gl17gsgx" path="res://Sprites/image5.png" id="18_346fj"]
 [ext_resource type="Texture2D" uid="uid://bowhf7ks0v0qb" path="res://Sprites/image6.png" id="19_0sclb"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_346fj"]
+load_path = "res://.godot/imported/BlackPaperGB.jpg-dbc5ea65cfe58f97d2c044535b10082d.ctex"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
@@ -39,13 +42,31 @@ shader_parameter/noise_texture = SubResource("NoiseTexture2D_rgh2o")
 shader_parameter/density = 0.25
 shader_parameter/speed = Vector2(0.02, 0.01)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0sclb"]
+size = Vector2(263.9606, 17.358494)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sxkr1"]
+size = Vector2(147, 1212)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fq0cl"]
+size = Vector2(262, 11541)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hwpts"]
+size = Vector2(215.09053, 25.264145)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jyqft"]
+size = Vector2(356, 11475)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3tgeq"]
+size = Vector2(524.10803, 76.73523)
+
 [node name="Node2D" type="Node2D" unique_id=2035813038]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=203460590]
-offset_left = -4489.0
-offset_top = -1529.0
-offset_right = 11108.0
-offset_bottom = 11595.0
+offset_left = -5528.0
+offset_top = -2440.0
+offset_right = 11756.0
+offset_bottom = 14133.0
 color = Color(0.32699388, 0.28063932, 0.22092837, 1)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
@@ -53,14 +74,14 @@ visible = false
 texture_repeat = 2
 offset_right = 3873.0
 offset_bottom = 2168.0
-texture = ExtResource("2_rgh2o")
+texture = SubResource("CompressedTexture2D_346fj")
 stretch_mode = 1
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1942139395]
 z_index = 1
 position = Vector2(969, 542)
 script = ExtResource("1_idj7w")
-speed = 250
+speed = 600
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1701292336]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
@@ -786,6 +807,26 @@ rotation = 0.24255544
 scale = Vector2(0.21166551, 0.21166551)
 texture = ExtResource("11_grg3l")
 
+[node name="Star3" type="Sprite2D" parent="RandomDeco" unique_id=438948981]
+position = Vector2(5123, 7060)
+rotation = 0.24255544
+scale = Vector2(0.5901646, 0.59016454)
+texture = ExtResource("11_grg3l")
+
+[node name="Star4" type="Sprite2D" parent="RandomDeco" unique_id=801679220]
+z_index = 1
+position = Vector2(6047.9995, 7124.999)
+rotation = -0.37011564
+scale = Vector2(0.40144208, 0.40144205)
+texture = ExtResource("11_grg3l")
+
+[node name="Star5" type="Sprite2D" parent="RandomDeco" unique_id=1147392374]
+z_index = 1
+position = Vector2(5294.9995, 7913)
+rotation = 0.0039106905
+scale = Vector2(0.40144208, 0.40144205)
+texture = ExtResource("11_grg3l")
+
 [node name="Scramble" type="Sprite2D" parent="RandomDeco" unique_id=1651090443]
 position = Vector2(1959.0001, 942)
 rotation = 0.39242366
@@ -834,6 +875,36 @@ rotation = -0.48334742
 scale = Vector2(0.26527965, 0.2652796)
 texture = ExtResource("12_frkhe")
 
+[node name="Scramble11" type="Sprite2D" parent="RandomDeco" unique_id=1385165599]
+position = Vector2(2313, 5996.9995)
+rotation = -0.48334742
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble12" type="Sprite2D" parent="RandomDeco" unique_id=1922731424]
+position = Vector2(772.99994, 6070.0005)
+rotation = 2.566287
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble13" type="Sprite2D" parent="RandomDeco" unique_id=1665231823]
+position = Vector2(1725, 6692)
+rotation = 3.2191348
+scale = Vector2(0.3653347, 0.29190403)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble14" type="Sprite2D" parent="RandomDeco" unique_id=420245130]
+position = Vector2(1829.9998, 7437.9995)
+rotation = 2.785194
+scale = Vector2(0.30095422, 0.29190403)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble15" type="Sprite2D" parent="RandomDeco" unique_id=1326801368]
+position = Vector2(-290.99988, 8087)
+rotation = 2.785194
+scale = Vector2(0.30095422, 0.29190403)
+texture = ExtResource("12_frkhe")
+
 [node name="Scramble10" type="Sprite2D" parent="RandomDeco" unique_id=321135460]
 position = Vector2(3589.0005, 5892)
 rotation = 0.12768859
@@ -845,6 +916,11 @@ position = Vector2(6555.999, 4310.0005)
 rotation = -0.14560235
 scale = Vector2(0.27998665, 0.2652796)
 texture = ExtResource("12_frkhe")
+
+[node name="MeAndGrandad" type="Sprite2D" parent="RandomDeco" unique_id=1101337766]
+position = Vector2(5643, 7521)
+scale = Vector2(0.4260002, 0.42600036)
+texture = ExtResource("6_0sclb")
 
 [node name="Lines" type="Node" parent="." unique_id=968656749]
 
@@ -996,3 +1072,50 @@ position = Vector2(2034, 8533)
 rotation = -2.7445982
 scale = Vector2(0.99999994, 0.99999994)
 texture = ExtResource("5_2w5on")
+
+[node name="Borders" type="Node" parent="." unique_id=1193959684]
+
+[node name="Border1" type="StaticBody2D" parent="Borders" unique_id=817940507]
+position = Vector2(267, -22)
+scale = Vector2(25.700806, 4.076925)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Border1" unique_id=506518246]
+position = Vector2(-2.9182014, -5.245286)
+shape = SubResource("RectangleShape2D_0sclb")
+
+[node name="Border2" type="StaticBody2D" parent="Borders" unique_id=772316664]
+position = Vector2(3617, 790)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Border2" unique_id=446903674]
+position = Vector2(6.5, -269)
+shape = SubResource("RectangleShape2D_sxkr1")
+
+[node name="Border3" type="StaticBody2D" parent="Borders" unique_id=1459003213]
+position = Vector2(7984, 790)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Border3" unique_id=2060361455]
+position = Vector2(352, 4824.5)
+shape = SubResource("RectangleShape2D_fq0cl")
+
+[node name="Border4" type="StaticBody2D" parent="Borders" unique_id=1760087752]
+position = Vector2(3679, 1124)
+scale = Vector2(25.700806, 4.076925)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Border4" unique_id=909980856]
+position = Vector2(105.28851, -11.89621)
+shape = SubResource("RectangleShape2D_hwpts")
+
+[node name="Border5" type="StaticBody2D" parent="Borders" unique_id=614706399]
+position = Vector2(-2504, 790)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Border5" unique_id=13165959]
+position = Vector2(333, 4838.5)
+shape = SubResource("RectangleShape2D_jyqft")
+
+[node name="Border6" type="StaticBody2D" parent="Borders" unique_id=1665891287]
+position = Vector2(267, 10860.001)
+scale = Vector2(25.700806, 4.076925)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Border6" unique_id=1449846501]
+position = Vector2(103.96563, -53.613525)
+shape = SubResource("RectangleShape2D_3tgeq")
