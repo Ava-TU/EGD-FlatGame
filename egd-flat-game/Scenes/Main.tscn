@@ -8,10 +8,13 @@
 [ext_resource type="Texture2D" uid="uid://bx1te5ql60r2m" path="res://Sprites/PhoneThing.png" id="6_jw32o"]
 [ext_resource type="Texture2D" uid="uid://dt0is8keu3m2c" path="res://Sprites/image1.png" id="6_v1gob"]
 [ext_resource type="Texture2D" uid="uid://d4fij8yvtu5wu" path="res://Sprites/Line2.png" id="7_50glp"]
+[ext_resource type="Texture2D" uid="uid://c046kn7r2rlqe" path="res://Sprites/Image3.png" id="7_frkhe"]
 [ext_resource type="Texture2D" uid="uid://buy8yku2lhpcl" path="res://Sprites/Line3.png" id="9_vy5pj"]
 [ext_resource type="Texture2D" uid="uid://dtbny4vral8nj" path="res://Sprites/Image2.png" id="10_bmxlf"]
 [ext_resource type="Texture2D" uid="uid://bparf0itnmdpy" path="res://Sprites/star.png" id="11_grg3l"]
 [ext_resource type="Texture2D" uid="uid://bc5bbyme8o4d7" path="res://Sprites/scramble.png" id="12_frkhe"]
+[ext_resource type="Texture2D" uid="uid://do34aujo7j27" path="res://Sprites/creature.png" id="14_1p5hy"]
+[ext_resource type="Texture2D" uid="uid://bjp1l8hqywh2l" path="res://Sprites/image4.png" id="15_h1m7h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
@@ -35,10 +38,10 @@ shader_parameter/speed = Vector2(0.02, 0.01)
 [node name="Node2D" type="Node2D" unique_id=2035813038]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=203460590]
-offset_left = -3006.0
-offset_top = -721.0
-offset_right = 7118.0
-offset_bottom = 9063.0
+offset_left = -2664.0
+offset_top = -1529.0
+offset_right = 11108.0
+offset_bottom = 7121.0
 color = Color(0.32699388, 0.28063932, 0.22092837, 1)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
@@ -78,16 +81,6 @@ motion_mirroring = Vector2(1920, 1080)
 material = SubResource("ShaderMaterial_pbw6q")
 offset_right = 1920.0
 offset_bottom = 1080.0
-
-[node name="Line1" type="Sprite2D" parent="." unique_id=592922144]
-position = Vector2(1596, 1054)
-texture = ExtResource("5_pbw6q")
-
-[node name="PhoneThing" type="Sprite2D" parent="." unique_id=150696153]
-position = Vector2(-50.00006, 2373)
-rotation = -0.36448675
-scale = Vector2(0.6428346, 0.64283466)
-texture = ExtResource("6_jw32o")
 
 [node name="Texts" type="Node" parent="." unique_id=1842334683]
 
@@ -180,10 +173,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -790.0
-offset_top = 1868.0
-offset_right = -127.0
-offset_bottom = 2039.0
+offset_left = -1084.0
+offset_top = 1605.0
+offset_right = -421.0
+offset_bottom = 1776.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
@@ -201,10 +194,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 170.0
-offset_top = 2261.0
-offset_right = 833.0
-offset_bottom = 2432.0
+offset_left = -260.0
+offset_top = 1945.0
+offset_right = 403.0
+offset_bottom = 2116.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
@@ -222,10 +215,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -519.0
-offset_top = 2676.0
-offset_right = 144.0
-offset_bottom = 2847.0
+offset_left = -797.0
+offset_top = 2468.0
+offset_right = -134.0
+offset_bottom = 2639.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
@@ -237,35 +230,222 @@ vertical_alignment = 1
 autowrap_mode = 3
 autowrap_trim_flags = 128
 
-[node name="Line2" type="Sprite2D" parent="." unique_id=1218527653]
-position = Vector2(736, 2143)
-texture = ExtResource("7_50glp")
+[node name="TextEight" type="Label" parent="Texts" unique_id=1279861985]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 37.0
+offset_top = 2868.0
+offset_right = 700.0
+offset_bottom = 3039.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Something started coming out of the screen"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
 
-[node name="Image1" type="Sprite2D" parent="." unique_id=274348011]
-position = Vector2(871, 1510)
-scale = Vector2(0.63660485, 0.6366048)
-texture = ExtResource("6_v1gob")
+[node name="TextNine" type="Label" parent="Texts" unique_id=3545972]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1060.0
+offset_top = 2179.0
+offset_right = 1723.0
+offset_bottom = 2350.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "It was this white, fluffy creature with beady eyes and sharp teeth"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
 
-[node name="Line3" type="Sprite2D" parent="." unique_id=1864654219]
-position = Vector2(440, 2895)
-texture = ExtResource("9_vy5pj")
+[node name="Text10" type="Label" parent="Texts" unique_id=1173512556]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 2082.0
+offset_top = 2377.0
+offset_right = 2745.0
+offset_bottom = 2548.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.8572476
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "I find it hard to draw it the way I remember"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
 
-[node name="Image2" type="Sprite2D" parent="." unique_id=814910053]
-position = Vector2(1765, 3489.75)
-scale = Vector2(0.637, 0.667)
-texture = ExtResource("10_bmxlf")
+[node name="Text11" type="Label" parent="Texts" unique_id=2028650333]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 3095.0
+offset_top = 1403.0
+offset_right = 3802.0
+offset_bottom = 1574.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Dropping the device, it started floating around as I heard screams"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
 
-[node name="Line4" type="Sprite2D" parent="." unique_id=1888513068]
-position = Vector2(3009, 3099)
-texture = ExtResource("7_50glp")
+[node name="Text12" type="Label" parent="Texts" unique_id=1923987336]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 3795.0
+offset_top = 2169.0
+offset_right = 4502.0
+offset_bottom = 2340.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Whether it was mine or someone else, I don't know"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
 
-[node name="Star" type="Sprite2D" parent="." unique_id=2032717300]
-position = Vector2(2416, 1178)
-rotation = 0.24687792
-scale = Vector2(0.32777777, 0.32777777)
+[node name="Text13" type="Label" parent="Texts" unique_id=369200383]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 4682.0
+offset_top = 2919.0
+offset_right = 5482.0
+offset_bottom = 3090.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "My perspective moved like a camera on a trolley, my attention being brought to the open bedroom door"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="RandomDeco" type="Node" parent="." unique_id=374820109]
+
+[node name="Star" type="Sprite2D" parent="RandomDeco" unique_id=2032717300]
+position = Vector2(611.99994, 378.00003)
+rotation = -0.63703597
+scale = Vector2(0.21166553, 0.21166553)
 texture = ExtResource("11_grg3l")
 
-[node name="Scramble" type="Sprite2D" parent="." unique_id=1651090443]
+[node name="Star2" type="Sprite2D" parent="RandomDeco" unique_id=788678630]
+position = Vector2(1346, 375)
+rotation = 0.24255544
+scale = Vector2(0.21166551, 0.21166551)
+texture = ExtResource("11_grg3l")
+
+[node name="Scramble" type="Sprite2D" parent="RandomDeco" unique_id=1651090443]
 position = Vector2(1959.0001, 942)
+rotation = 0.39242366
 scale = Vector2(0.26527965, 0.2652796)
 texture = ExtResource("12_frkhe")
+
+[node name="Scramble2" type="Sprite2D" parent="RandomDeco" unique_id=2071280990]
+position = Vector2(843.00006, 1944.0001)
+rotation = -0.51248085
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble3" type="Sprite2D" parent="RandomDeco" unique_id=1637039854]
+position = Vector2(2382.0002, 3022)
+rotation = 0.11055105
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Lines" type="Node" parent="." unique_id=968656749]
+
+[node name="Line1" type="Sprite2D" parent="Lines" unique_id=592922144]
+position = Vector2(1596, 1054)
+texture = ExtResource("5_pbw6q")
+
+[node name="Line2" type="Sprite2D" parent="Lines" unique_id=1218527653]
+position = Vector2(508, 1994)
+texture = ExtResource("7_50glp")
+
+[node name="Line3" type="Sprite2D" parent="Lines" unique_id=1864654219]
+position = Vector2(205, 2809)
+texture = ExtResource("9_vy5pj")
+
+[node name="Line4" type="Sprite2D" parent="Lines" unique_id=1888513068]
+position = Vector2(2417, 3096)
+texture = ExtResource("7_50glp")
+
+[node name="Line5" type="Sprite2D" parent="Lines" unique_id=1698208027]
+position = Vector2(3319, 2709)
+rotation = -4.0093055
+scale = Vector2(-1, -1)
+texture = ExtResource("9_vy5pj")
+
+[node name="Line6" type="Sprite2D" parent="Lines" unique_id=319352331]
+position = Vector2(5066, 2745)
+texture = ExtResource("9_vy5pj")
+
+[node name="Images" type="Node" parent="." unique_id=1749895634]
+
+[node name="Image1" type="Sprite2D" parent="Images" unique_id=274348011]
+position = Vector2(987.00006, 1469.0001)
+scale = Vector2(0.46153837, 0.46153837)
+texture = ExtResource("6_v1gob")
+
+[node name="Image2" type="Sprite2D" parent="Images" unique_id=814910053]
+position = Vector2(1332.9999, 3231)
+scale = Vector2(0.46199998, 0.484)
+texture = ExtResource("10_bmxlf")
+
+[node name="PhoneThing" type="Sprite2D" parent="Images" unique_id=150696153]
+position = Vector2(-255, 2279.0002)
+rotation = -0.36448675
+scale = Vector2(0.6428346, 0.64283466)
+texture = ExtResource("6_jw32o")
+
+[node name="Image3" type="Sprite2D" parent="Images" unique_id=362901410]
+position = Vector2(4412, 2274)
+scale = Vector2(0.462, 0.462)
+texture = ExtResource("7_frkhe")
+
+[node name="Creature" type="Sprite2D" parent="Images" unique_id=399724596]
+position = Vector2(2374, 2582)
+scale = Vector2(0.5591678, 0.55916774)
+texture = ExtResource("14_1p5hy")
+
+[node name="Image4" type="Sprite2D" parent="Images" unique_id=1843670256]
+position = Vector2(6048, 3273.0002)
+scale = Vector2(0.462, 0.462)
+texture = ExtResource("15_h1m7h")
