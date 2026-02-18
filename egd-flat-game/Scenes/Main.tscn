@@ -57,9 +57,10 @@ texture = ExtResource("2_rgh2o")
 stretch_mode = 1
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1942139395]
+z_index = 1
 position = Vector2(969, 542)
 script = ExtResource("1_idj7w")
-speed = 350
+speed = 250
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1701292336]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
@@ -89,6 +90,7 @@ offset_bottom = 1080.0
 [node name="Texts" type="Node" parent="." unique_id=1842334683]
 
 [node name="TextOne" type="Label" parent="Texts" unique_id=1817447905]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -109,6 +111,7 @@ vertical_alignment = 1
 autowrap_trim_flags = 128
 
 [node name="TextTwo" type="Label" parent="Texts" unique_id=254853522]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -130,6 +133,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextThree" type="Label" parent="Texts" unique_id=866140322]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -151,6 +155,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextFour" type="Label" parent="Texts" unique_id=1202296468]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -172,6 +177,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextFive" type="Label" parent="Texts" unique_id=347867851]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -193,6 +199,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextSix" type="Label" parent="Texts" unique_id=575104357]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -214,6 +221,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextSeven" type="Label" parent="Texts" unique_id=75146128]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -235,6 +243,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextEight" type="Label" parent="Texts" unique_id=1279861985]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -256,6 +265,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="TextNine" type="Label" parent="Texts" unique_id=3545972]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -277,6 +287,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text10" type="Label" parent="Texts" unique_id=1173512556]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -299,6 +310,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text11" type="Label" parent="Texts" unique_id=2028650333]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -320,6 +332,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text12" type="Label" parent="Texts" unique_id=1923987336]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -341,6 +354,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text13" type="Label" parent="Texts" unique_id=369200383]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -362,6 +376,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text14" type="Label" parent="Texts" unique_id=905199537]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -383,6 +398,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text15" type="Label" parent="Texts" unique_id=572406614]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -405,6 +421,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text16" type="Label" parent="Texts" unique_id=2044513914]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -426,6 +443,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text17" type="Label" parent="Texts" unique_id=1738653464]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -447,6 +465,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text18" type="Label" parent="Texts" unique_id=161407450]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -468,6 +487,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text19" type="Label" parent="Texts" unique_id=1304008513]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -489,6 +509,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text20" type="Label" parent="Texts" unique_id=1512026459]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -510,6 +531,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text21" type="Label" parent="Texts" unique_id=1154460118]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -531,6 +553,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text22" type="Label" parent="Texts" unique_id=232987390]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -552,6 +575,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text23" type="Label" parent="Texts" unique_id=689580329]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -573,6 +597,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text24" type="Label" parent="Texts" unique_id=2079494380]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -594,6 +619,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text25" type="Label" parent="Texts" unique_id=1234397037]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -615,6 +641,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text26" type="Label" parent="Texts" unique_id=1329982507]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -636,6 +663,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text27" type="Label" parent="Texts" unique_id=77243202]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -657,6 +685,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text28" type="Label" parent="Texts" unique_id=1749556884]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -678,6 +707,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text29" type="Label" parent="Texts" unique_id=708690816]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -699,6 +729,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text30" type="Label" parent="Texts" unique_id=1851248435]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -720,6 +751,7 @@ autowrap_mode = 3
 autowrap_trim_flags = 128
 
 [node name="Text31" type="Label" parent="Texts" unique_id=1725945908]
+z_index = 2
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -739,11 +771,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 autowrap_trim_flags = 128
-
-[node name="Grandad" type="Sprite2D" parent="Texts" unique_id=433851213]
-position = Vector2(2034, 8533)
-rotation = -2.7445982
-texture = ExtResource("5_2w5on")
 
 [node name="RandomDeco" type="Node" parent="." unique_id=374820109]
 
@@ -862,10 +889,6 @@ position = Vector2(3097, 9491.999)
 rotation = -0.3168314
 texture = ExtResource("9_vy5pj")
 
-[node name="Line7" type="Sprite2D" parent="Lines" unique_id=747953219]
-position = Vector2(7724, 2102)
-texture = ExtResource("7_50glp")
-
 [node name="Line22" type="Sprite2D" parent="Lines" unique_id=1921907484]
 position = Vector2(4579, 9401)
 texture = ExtResource("7_50glp")
@@ -884,10 +907,6 @@ texture = ExtResource("7_50glp")
 position = Vector2(5445, 6127)
 texture = ExtResource("7_50glp")
 
-[node name="Line8" type="Sprite2D" parent="Lines" unique_id=1125648318]
-position = Vector2(7646, 2772)
-texture = ExtResource("5_pbw6q")
-
 [node name="Line15" type="Sprite2D" parent="Lines" unique_id=1858156517]
 position = Vector2(1149, 6224)
 scale = Vector2(-1, 1)
@@ -901,10 +920,6 @@ texture = ExtResource("5_pbw6q")
 [node name="Line16" type="Sprite2D" parent="Lines" unique_id=351363190]
 position = Vector2(1879, 6950)
 texture = ExtResource("5_pbw6q")
-
-[node name="Line9" type="Sprite2D" parent="Lines" unique_id=502582750]
-position = Vector2(9122, 2065)
-texture = ExtResource("9_vy5pj")
 
 [node name="Line19" type="Sprite2D" parent="Lines" unique_id=1068928133]
 position = Vector2(673, 8863)
@@ -974,4 +989,10 @@ texture = ExtResource("19_0sclb")
 position = Vector2(6637, 4463)
 rotation = -0.4805706
 scale = Vector2(0.71261376, 0.71261376)
+texture = ExtResource("5_2w5on")
+
+[node name="Grandad2" type="Sprite2D" parent="Images" unique_id=433851213]
+position = Vector2(2034, 8533)
+rotation = -2.7445982
+scale = Vector2(0.99999994, 0.99999994)
 texture = ExtResource("5_2w5on")
