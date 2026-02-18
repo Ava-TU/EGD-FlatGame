@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://e171u74rkqqh" path="res://BG/BlackPaperGB.jpg" id="2_rgh2o"]
 [ext_resource type="Texture2D" uid="uid://bfp2pncisx488" path="res://Sprites/Me.jpg" id="3_rgh2o"]
 [ext_resource type="Shader" uid="uid://cyhejf8vcfwxr" path="res://Shaders/Fog.gdshader" id="4_rgh2o"]
+[ext_resource type="Texture2D" uid="uid://cawde1iujwdey" path="res://Sprites/grandad.png" id="5_2w5on"]
 [ext_resource type="Texture2D" uid="uid://dxaytfcoikps5" path="res://Sprites/line1.png" id="5_pbw6q"]
 [ext_resource type="Texture2D" uid="uid://bx1te5ql60r2m" path="res://Sprites/PhoneThing.png" id="6_jw32o"]
 [ext_resource type="Texture2D" uid="uid://dt0is8keu3m2c" path="res://Sprites/image1.png" id="6_v1gob"]
@@ -11,10 +12,13 @@
 [ext_resource type="Texture2D" uid="uid://c046kn7r2rlqe" path="res://Sprites/Image3.png" id="7_frkhe"]
 [ext_resource type="Texture2D" uid="uid://buy8yku2lhpcl" path="res://Sprites/Line3.png" id="9_vy5pj"]
 [ext_resource type="Texture2D" uid="uid://dtbny4vral8nj" path="res://Sprites/Image2.png" id="10_bmxlf"]
+[ext_resource type="Texture2D" uid="uid://bgfvsohh5y43j" path="res://Sprites/Line4.png" id="10_erwvk"]
 [ext_resource type="Texture2D" uid="uid://bparf0itnmdpy" path="res://Sprites/star.png" id="11_grg3l"]
 [ext_resource type="Texture2D" uid="uid://bc5bbyme8o4d7" path="res://Sprites/scramble.png" id="12_frkhe"]
 [ext_resource type="Texture2D" uid="uid://do34aujo7j27" path="res://Sprites/creature.png" id="14_1p5hy"]
 [ext_resource type="Texture2D" uid="uid://bjp1l8hqywh2l" path="res://Sprites/image4.png" id="15_h1m7h"]
+[ext_resource type="Texture2D" uid="uid://gpl5gl17gsgx" path="res://Sprites/image5.png" id="18_346fj"]
+[ext_resource type="Texture2D" uid="uid://bowhf7ks0v0qb" path="res://Sprites/image6.png" id="19_0sclb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r150o"]
 size = Vector2(126, 127)
@@ -38,10 +42,10 @@ shader_parameter/speed = Vector2(0.02, 0.01)
 [node name="Node2D" type="Node2D" unique_id=2035813038]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=203460590]
-offset_left = -2664.0
+offset_left = -4489.0
 offset_top = -1529.0
 offset_right = 11108.0
-offset_bottom = 7121.0
+offset_bottom = 11595.0
 color = Color(0.32699388, 0.28063932, 0.22092837, 1)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1214155747]
@@ -357,6 +361,390 @@ vertical_alignment = 1
 autowrap_mode = 3
 autowrap_trim_flags = 128
 
+[node name="Text14" type="Label" parent="Texts" unique_id=905199537]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 5922.0
+offset_top = 3049.0
+offset_right = 6722.0
+offset_bottom = 3220.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "My grandad was stood there"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text15" type="Label" parent="Texts" unique_id=572406614]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 5495.0
+offset_top = 4366.0
+offset_right = 6295.0
+offset_bottom = 4537.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.49561295
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "He didn't say anything, just stood there in the hallway"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text16" type="Label" parent="Texts" unique_id=2044513914]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 4797.0
+offset_top = 4773.0
+offset_right = 5597.0
+offset_bottom = 4944.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Then that creature floated over..."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text17" type="Label" parent="Texts" unique_id=1738653464]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 3512.0
+offset_top = 5432.0
+offset_right = 4312.0
+offset_bottom = 5603.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "And the next thing I knew..."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text18" type="Label" parent="Texts" unique_id=161407450]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1881.0
+offset_top = 5030.0
+offset_right = 2681.0
+offset_bottom = 5201.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "He was gone"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text19" type="Label" parent="Texts" unique_id=1304008513]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 651.0
+offset_top = 5198.0
+offset_right = 1451.0
+offset_bottom = 5369.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "I remember being very stressed after this for ages"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text20" type="Label" parent="Texts" unique_id=1512026459]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -271.0
+offset_top = 5596.0
+offset_right = 557.0
+offset_bottom = 5767.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Not understanding why I had that dream, unable to even describe it for ages"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text21" type="Label" parent="Texts" unique_id=1154460118]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 6315.0
+offset_right = 1374.0
+offset_bottom = 6486.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "But growing up made it all more confusing"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text22" type="Label" parent="Texts" unique_id=232987390]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -299.0
+offset_top = 7176.0
+offset_right = 529.0
+offset_bottom = 7347.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Mainly being the timing of my dream"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text23" type="Label" parent="Texts" unique_id=689580329]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1797.0
+offset_top = 8027.0
+offset_right = -969.0
+offset_bottom = 8198.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "My grandad died when I was young but I'm not sure when he did, I never wanted to upset my mother by asking"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text24" type="Label" parent="Texts" unique_id=2079494380]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -121.0
+offset_top = 7974.0
+offset_right = 707.0
+offset_bottom = 8145.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "So I've always wondered, did I know my grandad died, did I even fully understand?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text25" type="Label" parent="Texts" unique_id=1234397037]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -159.0
+offset_top = 8539.0
+offset_right = 416.0
+offset_bottom = 8710.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "Maybe he was still alive when I had this dream?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text26" type="Label" parent="Texts" unique_id=1329982507]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1292.0
+offset_top = 8261.0
+offset_right = 1867.0
+offset_bottom = 8432.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "If he was, that makes this dream even stranger"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text27" type="Label" parent="Texts" unique_id=77243202]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 2008.0
+offset_top = 8953.0
+offset_right = 2799.0
+offset_bottom = 9124.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "The imagery of him rising up before vanishing out of nowhere, is that what I imagined happened when you pass on?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text28" type="Label" parent="Texts" unique_id=1749556884]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 3203.0
+offset_top = 8505.0
+offset_right = 3994.0
+offset_bottom = 8676.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "I don't remember much of him"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text29" type="Label" parent="Texts" unique_id=708690816]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 3894.0
+offset_top = 8959.0
+offset_right = 4685.0
+offset_bottom = 9130.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "What he sounded like, his mannerisms..."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text30" type="Label" parent="Texts" unique_id=1851248435]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 4010.0
+offset_top = 7662.0
+offset_right = 4801.0
+offset_bottom = 7833.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "I wish I had asked more about him"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Text31" type="Label" parent="Texts" unique_id=1725945908]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 4525.0
+offset_top = 7366.0
+offset_right = 5316.0
+offset_bottom = 7537.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5444965, 0.6024336, 0.51975304, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.38039216)
+theme_override_font_sizes/font_size = 40
+text = "But I still have time"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+autowrap_trim_flags = 128
+
+[node name="Grandad" type="Sprite2D" parent="Texts" unique_id=433851213]
+position = Vector2(2034, 8533)
+rotation = -2.7445982
+texture = ExtResource("5_2w5on")
+
 [node name="RandomDeco" type="Node" parent="." unique_id=374820109]
 
 [node name="Star" type="Sprite2D" parent="RandomDeco" unique_id=2032717300]
@@ -389,6 +777,48 @@ rotation = 0.11055105
 scale = Vector2(0.26527965, 0.2652796)
 texture = ExtResource("12_frkhe")
 
+[node name="Scramble5" type="Sprite2D" parent="RandomDeco" unique_id=130545228]
+position = Vector2(3609.0002, 2320.0002)
+rotation = 0.11055105
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble6" type="Sprite2D" parent="RandomDeco" unique_id=1908871903]
+position = Vector2(6708, 3266)
+rotation = 0.11055105
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble7" type="Sprite2D" parent="RandomDeco" unique_id=1565233675]
+position = Vector2(5391, 6071)
+rotation = 2.3026874
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble8" type="Sprite2D" parent="RandomDeco" unique_id=2140254724]
+position = Vector2(4200.0005, 5855)
+rotation = -0.48334742
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble9" type="Sprite2D" parent="RandomDeco" unique_id=1758369633]
+position = Vector2(2920, 5749)
+rotation = -0.48334742
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble10" type="Sprite2D" parent="RandomDeco" unique_id=321135460]
+position = Vector2(3589.0005, 5892)
+rotation = 0.12768859
+scale = Vector2(0.26527965, 0.2652796)
+texture = ExtResource("12_frkhe")
+
+[node name="Scramble4" type="Sprite2D" parent="RandomDeco" unique_id=1287995800]
+position = Vector2(6555.999, 4310.0005)
+rotation = -0.14560235
+scale = Vector2(0.27998665, 0.2652796)
+texture = ExtResource("12_frkhe")
+
 [node name="Lines" type="Node" parent="." unique_id=968656749]
 
 [node name="Line1" type="Sprite2D" parent="Lines" unique_id=592922144]
@@ -416,6 +846,86 @@ texture = ExtResource("9_vy5pj")
 [node name="Line6" type="Sprite2D" parent="Lines" unique_id=319352331]
 position = Vector2(5066, 2745)
 texture = ExtResource("9_vy5pj")
+
+[node name="Line13" type="Sprite2D" parent="Lines" unique_id=876561911]
+position = Vector2(3956.0002, 6216)
+rotation = -0.3168314
+texture = ExtResource("9_vy5pj")
+
+[node name="Line20" type="Sprite2D" parent="Lines" unique_id=1784460798]
+position = Vector2(1848.0002, 9296)
+rotation = -0.3168314
+texture = ExtResource("9_vy5pj")
+
+[node name="Line21" type="Sprite2D" parent="Lines" unique_id=1336111668]
+position = Vector2(3097, 9491.999)
+rotation = -0.3168314
+texture = ExtResource("9_vy5pj")
+
+[node name="Line7" type="Sprite2D" parent="Lines" unique_id=747953219]
+position = Vector2(7724, 2102)
+texture = ExtResource("7_50glp")
+
+[node name="Line22" type="Sprite2D" parent="Lines" unique_id=1921907484]
+position = Vector2(4579, 9401)
+texture = ExtResource("7_50glp")
+
+[node name="Line23" type="Sprite2D" parent="Lines" unique_id=1995346475]
+position = Vector2(5434, 8537)
+rotation = -0.76329035
+texture = ExtResource("7_50glp")
+
+[node name="Line14" type="Sprite2D" parent="Lines" unique_id=1732738067]
+position = Vector2(2355.0002, 6092)
+rotation = 0.54776317
+texture = ExtResource("7_50glp")
+
+[node name="Line12" type="Sprite2D" parent="Lines" unique_id=1659314710]
+position = Vector2(5445, 6127)
+texture = ExtResource("7_50glp")
+
+[node name="Line8" type="Sprite2D" parent="Lines" unique_id=1125648318]
+position = Vector2(7646, 2772)
+texture = ExtResource("5_pbw6q")
+
+[node name="Line15" type="Sprite2D" parent="Lines" unique_id=1858156517]
+position = Vector2(1149, 6224)
+scale = Vector2(-1, 1)
+texture = ExtResource("5_pbw6q")
+
+[node name="Line18" type="Sprite2D" parent="Lines" unique_id=224754281]
+position = Vector2(64, 8207)
+scale = Vector2(-1, 1)
+texture = ExtResource("5_pbw6q")
+
+[node name="Line16" type="Sprite2D" parent="Lines" unique_id=351363190]
+position = Vector2(1879, 6950)
+texture = ExtResource("5_pbw6q")
+
+[node name="Line9" type="Sprite2D" parent="Lines" unique_id=502582750]
+position = Vector2(9122, 2065)
+texture = ExtResource("9_vy5pj")
+
+[node name="Line19" type="Sprite2D" parent="Lines" unique_id=1068928133]
+position = Vector2(673, 8863)
+texture = ExtResource("9_vy5pj")
+
+[node name="Line17" type="Sprite2D" parent="Lines" unique_id=1970958301]
+position = Vector2(1283, 7603)
+scale = Vector2(-1, 1)
+texture = ExtResource("9_vy5pj")
+
+[node name="Line11" type="Sprite2D" parent="Lines" unique_id=1966741141]
+position = Vector2(6886, 4745)
+rotation = -0.66344243
+scale = Vector2(-1, 1)
+texture = ExtResource("9_vy5pj")
+
+[node name="Line10" type="Sprite2D" parent="Lines" unique_id=66059976]
+position = Vector2(6685.9995, 3691)
+rotation = -1.563815
+scale = Vector2(1, -1)
+texture = ExtResource("10_erwvk")
 
 [node name="Images" type="Node" parent="." unique_id=1749895634]
 
@@ -449,3 +959,19 @@ texture = ExtResource("14_1p5hy")
 position = Vector2(6048, 3273.0002)
 scale = Vector2(0.462, 0.462)
 texture = ExtResource("15_h1m7h")
+
+[node name="Image5" type="Sprite2D" parent="Images" unique_id=1399618923]
+position = Vector2(6236, 5638.0005)
+scale = Vector2(0.462, 0.462)
+texture = ExtResource("18_346fj")
+
+[node name="Image6" type="Sprite2D" parent="Images" unique_id=757203488]
+position = Vector2(3244, 5883)
+scale = Vector2(0.462, 0.462)
+texture = ExtResource("19_0sclb")
+
+[node name="Grandad" type="Sprite2D" parent="Images" unique_id=1473893510]
+position = Vector2(6637, 4463)
+rotation = -0.4805706
+scale = Vector2(0.71261376, 0.71261376)
+texture = ExtResource("5_2w5on")
